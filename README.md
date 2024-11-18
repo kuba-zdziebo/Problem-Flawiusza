@@ -10,5 +10,9 @@ W ogólnej wersji problem brzmi następująco: \
 **Na okręgu ustawiamy n obiektów, następnie eliminujemy co k-ty obiekt, tak długo, aż zostanie tylko jeden. Należy wskazać obiekt, który pozostanie.**
 ## 4.Implementacja problemu w pythonie
 
+### Rekurencyjnie
+
+### Iteracyjnie
+
 
 
