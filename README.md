@@ -27,4 +27,26 @@ def flavius_iteratively(n, k):
     return survivor+1
 ```
 
+### Za pomocą listy 
+```python
+def flavius(n, k):
+    numbers = []
+    for i in range(1, n + 1):
+        numbers.append(i)
+    while len(numbers) > 1:
+        eliminated = (k - 1) % len(numbers)
+        first = numbers[:eliminated]
+        last = numbers[eliminated + 1:]
+        numbers = last + first
+    return numbers[0]
+```
+
+## Przykłady 
+dla n = 6 i k = 2 wynik = 5
+dla n = 8 i k = 3 wynik = 7
+dla n = 41 i k = 3 wynik = 31
+
+## 5.Zadania
+
+
 
