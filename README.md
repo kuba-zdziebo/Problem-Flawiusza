@@ -43,10 +43,12 @@ def flavius(n, k):
 
 ## Przykłady 
 dla n = 6 i k = 2 wynik = 5
+
 dla n = 8 i k = 3 wynik = 7
+
 dla n = 41 i k = 3 wynik = 31
 
-## 5.Zadania
-
+## 5.Zadanie
+Flawiusz chce przetrwać. Znajduje się wraz z 40 innymi więzniami w jaskini, ktorzy nie chcą poddać się rzymianą. Zdecydowali oni, że staną w okręgu i będą eliminować co 7 żołnierza. Na jakim miejscu musi stanąć Flawiusz, aby być ostatnim oraz na którym miejscu będzie stał przedostatni żołnierz, który pomoże Flawiuszowi w realizacji planu.  
 
 
